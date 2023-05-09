@@ -53,3 +53,17 @@ color: black;
 .About p{
     font-weight: normal;
 }
+
+.Summer{
+background-image: url(Images/Bootcamp.png);
+background-size: cover;
+height: 70vh;
+}
+
+.Summer p{
+    font-size: 2rem;
+}
+.Summer h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
