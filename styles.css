@@ -9,7 +9,7 @@
     font-family:'Bruno Ace', cursive;
 }
 .navbar-brand{
-    color: black;
+    color: blueviolet;
     font-family:'Bruno Ace', cursive;
 }
 
@@ -24,7 +24,7 @@ cursor: pointer;
 }
 
 .nav-link{
-    color: blueviolet;
+    color:black;
 text-transform: lowercase;
 }
 
