@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Bruno Ace', cursive;
+}
+.navbar-brand{
+    color: black;
+    font-family:'Bruno Ace', cursive;
+}
+
+
+.navbar-brand hover{
+color: white;
+cursor: pointer;
+}
+
+.nav-item{
+    padding: 5px;
+}
+
+.nav-link{
+    color: black;
+text-transform: lowercase;
+}
+
+.nav-link:hover{
+color: black;
+}
