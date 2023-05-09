@@ -76,6 +76,14 @@ height: 70vh;
 
 .card{
 border-color: blueviolet;
+background-color: black;
+
+}
+
+.classes h5{
+    font-weight: 700;
+    font-size: 2rem;
+}
 
 }
 
