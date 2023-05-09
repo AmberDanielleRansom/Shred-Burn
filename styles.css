@@ -67,3 +67,19 @@ height: 70vh;
     font-weight: 900;
     font-size: 3rem;
 }
+
+.classes h1{
+    font-weight: 700;
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+.card{
+border-color: blueviolet;
+
+}
+
+.classes h5{
+    font-weight: 700;
+    font-size: 2rem;
+}
