@@ -83,3 +83,27 @@ border-color: blueviolet;
     font-weight: 700;
     font-size: 2rem;
 }
+
+.FreeClass {
+    background-color: black;
+    background-size: cover;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    height: 30vh;
+}
+
+.btn2{
+    height: 70px;
+    width: 320px;
+    font-size: 2rem;
+    color: white;
+    outline: none;
+    border: none;
+    transition: all 0.7s;
+    background-color: blueviolet; 
+}
+
+.btn:hover{
+    background-color: blueviolet;
+}
