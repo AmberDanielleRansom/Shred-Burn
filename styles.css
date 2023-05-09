@@ -31,3 +31,11 @@ text-transform: lowercase;
 .nav-link:hover{
 color: black;
 }
+
+.About h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.About p{
+    font-weight: normal;
+}
