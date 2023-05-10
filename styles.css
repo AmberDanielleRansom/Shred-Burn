@@ -176,5 +176,33 @@ input[type=submit]{
     outline: none;
     border: none;
     transition: all 0.7s;
+}
 
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+display: flex;
+justify-content: center;
+}
+
+.footernav ul li a{
+    color: blueviolet;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footernav ul li a:hover{
+    opacity: 2;
+}
+
+.footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-size: cover; 
+    height: 100%;
 }
