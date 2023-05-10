@@ -16,3 +16,5 @@ This is a gym website designed to assist people in joining a gym and getting a m
 * Add a gym class schedule for members to view 
 * add a feature where members can add their own class options to a personal calendar with reminders sent to them about class start time an hour in advance 
 * add a countdown for any upcoming promo deadlines 
+# Website 
+https://amberdanielleransom.github.io/Shred-Burn/
