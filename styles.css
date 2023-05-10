@@ -124,3 +124,57 @@ background-color: black;
 .quick-items{
   list-style-position: none;
 }
+
+.ContactUs{
+font-size: 3rem;
+}
+
+.contact{
+height: 100vh;
+}
+
+.Contact Image {
+    height: 70px;
+    width: 320px;
+}
+
+.contact-form{
+    max-width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+.contact h1{
+    color: white;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 50%;
+    background: white;
+    color: blueviolet;
+    padding: 14px 20px;
+    margin: 20px;
+}
+
+.submit{
+    height: 70px;
+    width: 320px;
+    font-size: 2rem;
+    color: white;
+    outline: none;
+    border: none;
+    transition: all 0.7s;
+
+}
