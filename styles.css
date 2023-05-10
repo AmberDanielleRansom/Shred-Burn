@@ -115,3 +115,12 @@ background-color: black;
 .btn:hover{
     background-color: blueviolet;
 }
+
+.card-body{
+    background-color:black;
+    color: white;
+}
+
+.quick-items{
+  list-style-position: none;
+}
