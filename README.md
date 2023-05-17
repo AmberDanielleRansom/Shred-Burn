@@ -1,7 +1,7 @@
 # Shred & Burn Gym Website
 By Amber Ransom
 # Overview
-This is a gym website designed to assist people in joining a gym and getting a membership. This site is very basic and has simple navigation! 
+This is a gym website designed to assist people in joining a gym and getting a membership. This site is very basic and has simple navigation! It has a section for what classes are available, membership pricing, images of gym members in a gallery, and a contact section where you can choose which membership you would like! 
 # Technologies Used:
 * Html
 * CSS
