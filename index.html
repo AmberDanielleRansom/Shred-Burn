@@ -17,30 +17,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
                                                     
-    <title> Gym Website</title>
+    <title>Gym Website</title>
 </head>
   <body>
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0"></div>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid px-5">
-          <a class="navbar-brand" href="#"><h2>Shred & Burn Gym</h2></a>
+          <a class="navbar-brand" href="#Home"><h2>Shred & Burn Gym</h2></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse px-5" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#scrollspyClasses">Classes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyPrices">
-                Membership Price
-                </a>
+                <a class="nav-link" href="#scrollspyPrice">Membership Price</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contact</a>
-                <div id="Contact" class="scrollspy"> 
-             </div>
-        </li>
+                <a class="nav-link" href="#scrollspyContact">Contact</a>
+              </li>
             </ul>
             <form class="d-flex">
               <h3>If it's burning it's working!</h3>
@@ -49,8 +49,8 @@
         </div>
       </nav>
 
+
       <div id="carouselExample" class="carousel slide">
-        <div class="slidetrack">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="Images/Image3.png" class="d-block w-100" alt="...">
@@ -63,7 +63,6 @@
             </div>
           </div>
         </div>
-        </div>
         
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -72,9 +71,10 @@
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-    </button>
-    
-    <section class="About py-5">
+      </button>
+
+
+      <section class="About py-5">
         <div class="container py-5">
             <div class="row py-5">
             <div class="col-lg-6 mb-3">
@@ -84,20 +84,20 @@
                 <div class="col-lg-6 mb-3">
                     <h2 class="pb-3">WE ARE THE <span> BEST PLACE TO </span> <br>
                         RECEIVE THE <span> THE BEST RESULTS!</span> </h2> 
-                        <P> At Shred & Burn we cater to each of out members! We have certified trainers 
-                            on hand at all times to assist you with acheiving your gym goals! We provide 
-                            a numbers of classes that are free with your membership along with other gym
-                            benefits, like our  sauna, pool, basketball court & indoor track. Join us and
+                        <P> At Shred & Burn we cater to each of out members! We have certified trainers <br>
+                            on hand at all times to assist you with acheiving your gym goals! We provide <br>
+                            a numbers of classes that are free with your membership along with other gym <br>
+                            benefits, like our  sauna, pool, basketball court & indoor track. Join us and<br>
                              start your Shred & Burn journey TODAY! 
                         </P>
-                        <button class="btn mt-4">JOIN US </button>
+                        <a class="btn mt-4" href="#scrollspyContact">JOIN US </a>
                     </div>
                 </div>
 
         </div>
       </section> 
-
-    <section class="Summer">
+     
+            <section class="Summer">
                 <div class="container py-5">
                     <div class="row py-5">
                     <div class="col-lg-8 m-auto text-white text-center">
@@ -105,12 +105,13 @@
                         <h1>BOOK YOUR SPOT BEFORE <br>
                             MAY 20TH FOR<br>
                             20% DISCOUNT</h1>
-                        <button class="btn mt-5"> JOIN US</button>
+                            <a class="btn mt-5" href="#scrollspyContact">JOIN US </a> 
                        </div>
                        </div>
                        </div>
                         </section>
-  <section class="classes px-5">
+
+                        <section class="classes px-5">
                             <div class="container py-5 text-center">
                                 <h1 id="scrollspyClasses"> Classes Available</h1>
                                 <p> We have a variety of classes to choose from weekly!</p>
@@ -129,6 +130,7 @@
                                   </div>
                                  </div>
                                  </div>
+                               </section>
                 
                                   <div class="col-lg-4 text-center">
                                     <div class="card">
@@ -171,53 +173,115 @@
                                                 </div>
                                                  </div>
                                             </div> 
-                                          </section>
-    
-    <section class="gallery">
+                                          
+                                           
+                                                             
+                             <section class="gallery py-5">
                               <div class="container-fluid py-5">
                                 <h1 class="text-center"> Gym Gallery</h1>
-                                <div class="row">
+                                <div class="row pt-5">
                                   <div class="col-lg-4 py-5">
-                                    <img src="Images/Image1.png" class="img-fluid" alt="girl lounging">
-                                   </div>
-                                  </div>
-                                  </div>
-                                  <div class="col-lg-4 py-5">
-                                    <img src="Images/Image2.png" class="img-fluid" alt="people squatting">
-
+                                    
+                                    <img src="Images/Image1.png" data-bs-toggle= "modal" data-bs-target= "#examplemodal" class="img-fluid" alt="girl running">
                                   </div>
                                   <div class="col-lg-4 py-5">
-                                    <img src="Images/Image3.png" class="img-fluid" alt="guy lifting">
+                                    <img src="Images/Image2.png" data-bs-toggle= "modal" data-bs-target= "#example" class="img-fluid" alt="girl lounging">
 
                                   </div>
                                   <div class="col-lg-4 py-5">
-                                    <img src="Images/Image4.png" class="img-fluid" alt="girl planking">
+                                    <img src="Images/Image3.png" data-bs-toggle= "modal" data-bs-target= "#partner" class="img-fluid" alt="girl lounging">
 
                                   </div>
                                   <div class="col-lg-4 py-5">
-                                    <img src="Images/Image5.png" class="img-fluid" alt="girl lifting">
+                                    <img src="Images/Image4.png" data-bs-toggle= "modal" data-bs-target= "#squat" class="img-fluid" alt="girl resting">
 
                                   </div>
                                   <div class="col-lg-4 py-5">
-                                    <img src="Images/Image6.png" class="img-fluid" alt="friends laughing">
+                                    <img src="Images/Image5.png" data-bs-toggle= "modal" data-bs-target= "#lift" class="img-fluid" alt="guy lifting">
+
+                                  </div>
+                                  <div class="col-lg-4 py-5">
+                                    <img src="Images/Image6.png" data-bs-toggle= "modal" data-bs-target= "#plank" class="img-fluid" alt="girl planking">
 
                                   </div>
 
-
-                            </section>
+                                </div>
+                              </div>
+                              
+                                  <div class="modal fade mt-5" id="examplemodal" tabindex="-1" aria-labelledby="examplemodal"> 
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <img src="Images/Image1.png" class="img-fluid" alt="people squatting">
+                                      </div>
+                                      
+                                    </div>
+                                  </div>
                                   
-                                   <div class="FreeClass px-5">
+                                  <div class="modal fade mt-5" id="example" tabindex="-1" aria-labelledby="example"> 
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <img src="Images/Image2.png" class="img-fluid" alt="girl lounging">
+                                      </div>
+                                      
+                                    </div>
+                                  </div>
+
+                                       
+                                  <div class="modal fade mt-5" id="partner" tabindex="-1" aria-labelledby="example"> 
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <img src="Images/Image3.png" class="img-fluid" alt="people squatting">
+                                      </div>
+                                      
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="modal fade mt-5" id="squat" tabindex="-1" aria-labelledby="example"> 
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <img src="Images/Image4.png" class="img-fluid" alt="girl resting">
+                                      </div>
+                                      
+                                    </div>
+                                  </div> 
+
+                                  <div class="modal fade mt-5" id="lift" tabindex="-1" aria-labelledby="example"> 
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <img src="Images/Image5.png" class="img-fluid" alt="guy lifting">
+                                      </div>
+                                      
+                                    </div>
+                                  </div> 
+
+
+                                  <div class="modal fade mt-5" id="plank" tabindex="-1" aria-labelledby="example"> 
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <img src="Images/Image6.png" class="img-fluid" alt="girl planking">
+                                      </div>
+                                      
+                                    </div>
+                                  </div> 
+ 
+                            </section>
+
+                        
+
+                            <div class="FreeClass px-5">
                               <div class="container-fluid py-5">
                                   <div class="col-lg-6 m-auto text-center">
                                       <p> Try a Class for FREE</p>
-                                      <button class="btn2 mt-3">FREE CLASS PASS</button>
+                                      <a class="btn2 mt-3"  href="#scrollspyContact">FREE CLASS PASS</a>
                                     </div>
                                    </div>
                                  </div>
-                                  
-<section class="Price px-5">
+
+                                    
+                 
+                                 <section class="Price px-5">
                                     <div class="container py-5 text-center">
-                                        <h1 id="#scrollspyPrices"> Membership Pricing</h1>
+                                        <h1 id="scrollspyPrice"> Membership Pricing</h1>
                                         <div class="row py-5">
                                           <div class="col-lg-4 text-center">
                                           <div class="card">
@@ -233,9 +297,9 @@
                                               </div>
                                                </div>
                                           </div>
-                                         </div>
-                                         </div>
-
+                                          </div>
+                                          </div>
+                                        </section>
                                           
                                   
                                               <div class="col-lg-4 text-center">
@@ -275,16 +339,15 @@
                                                       </div>
                                                        </div>
                                                   </div>
-                                                </section>
 
-    <section class="Contact Us px-5">
+                                                  <section class="Contact Us px-5">
                                                     <div class="container py-5 text-center">
                                                         <h1 id="scrollspyContact"> Contact Us</h1>
                                                         <p> We look forward to you joining our gym community! Remember if it's burning it's working!
                                                           Call us at 758-980-5678 or email us at shredburn@gmail.com</p>
-                                                         </div>
-                                                        </section>
-<div class="Contact Image py-5">
+                                                        </div>
+
+                                                  <section class="Contact Image py-5">
                                                     <div class="container py-5">
                                                         <div class="row py-5">
                                                         <div class="col-lg-6 mb-3">
@@ -292,8 +355,9 @@
                                                            </div>
                                                            </div>
                                                             </div>
-                                                            </div>
                                                             <div class="col-lg-6 mb-3">
+                                                            </div>
+                                                      </section>
 
 
                                                   <div class="contact">
@@ -307,6 +371,7 @@
                                                          <input type="text"  name="phone" placeholder="Your Number" required>
                                                          <select id="membership">
                                                           <option value="membership"> Select Your Membership</option>
+                                                          <option value="basic">Free Pass</option>
                                                           <option value="basic"> Basic Membership</option>
                                                           <option value="gold">Gold Membership</option>
                                                           <option value="platinum">Platinum Membership</option>
@@ -320,22 +385,40 @@
 
                                                     </div>
 
-                                                  </div>
-                                                 </div>
-   
+                                        </div>
+                                      </section>
+                                                  
+                                    <section class="footer-section">
                                         <footer>
                                             <div class="footernav">
                                             <ul class="list-inline">
-                                                <li ><a href="#">Home</a></li>
-                                                <li><a href="#">Classes</a></li>
-                                                <li><a href="#">Membership</a></li>
-                                                <li><a href="#">Contact</a></li>
-                                                <li><a href="#">Privacy Policy</a></li>
-                                            </ul>
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#scrollspyClasses">Classes</a>
+                                                </li>
+                                              
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#scrollspyPrice">Membership</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                  <a class="nav-link" href="#scrollspyContact">Contact</a>
+                                                </li>
+                                                </ul>
+                                                
                                             </div>
                                             <div class="footerBottom">
                                               <p class="copyright">Shred & Burn © 2023</p>
                                             </div>
                                             </footer>
-                                                                   
-                                       
+                                            </section>
+                               
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
