@@ -129,16 +129,16 @@ background-color: black;
 .ContactUs{
 font-size: 3rem;
 }
-
 .contact{
 height: 100vh;
+width: 150%;
 background-size: contain;
 
 }
 
 .contact-form{
-    max-width: 700px;
-    max-height: 900px;
+    max-width: 500px;
+    max-height: 700px;
     margin: auto;
     border-radius: 5px;
     background-color: blueviolet;
